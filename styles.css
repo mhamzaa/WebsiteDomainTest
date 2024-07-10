@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+ul {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: #00B649 solid 5px;
+}
+
+li {
+    float: right;
+    margin: 15px;
+}
+
+li a {
+    display: inline-block;
+    font-family: "Audiowide", sans-serif;
+    font-size: medium;
+    color: #00B649;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #fff;
+    color: #00B649;
+}
+
+.copyrights {
+    background-color: #333;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: #00B649;
+    padding-top: 35px;
+    padding-left: 526px;
+    padding-bottom: 40px;
+    margin-bottom: -10px;
+}
+
+img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 470px;
+
+}
+
+img {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.footer{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-top: #00B649 solid 5px;
+}
